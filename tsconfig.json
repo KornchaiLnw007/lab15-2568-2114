@@ -9,11 +9,14 @@
     "moduleDetection": "force",
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
+    "declaration": true,
 
     /* Strictness */
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
+    "emitDeclarationOnly": true,
+    "allowImportingTsExtensions": true,
 
     /* If transpiling with TypeScript: */
     "module": "NodeNext",
