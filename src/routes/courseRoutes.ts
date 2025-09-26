@@ -73,7 +73,9 @@ router.post("/", (req: Request, res: Response) => {
       });
     }
 
-    const found = courses.find((course) => course.courseId === body.courseId);
+    const found = courses.find(
+      (course) => course.courseId === body.courseId
+    );
     if (found) {
       return res.status(409).json({
         success: false,
